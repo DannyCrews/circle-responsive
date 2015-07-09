@@ -1287,12 +1287,13 @@ color: #000;
 }
 
 .responsive-menu-icon::before {
-	color: #000;
+	background-color: #fff;
+	border-radius: 2px;
 	content: "\f333";
 	display: inline-block;
-	font: normal 20px/1 'dashicons';
-	margin: 0 auto;
-	padding: 10px;
+	font: normal 30px/1 'dashicons';
+	margin: 6px auto;
+	padding: 6px 20px;
 }
 
 
