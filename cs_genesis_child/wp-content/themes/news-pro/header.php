@@ -32,6 +32,7 @@ genesis_markup( array(
   'context' => 'site-container',
 ) );
 
+
 do_action( 'genesis_before_header' );
 do_action( 'genesis_header' );
 do_action( 'genesis_after_header' );
@@ -44,38 +45,5 @@ genesis_markup( array(
 genesis_structural_wrap( 'site-inner' );
 ?>
 
-<header id="branding" role="banner" class="row">
-    <!-- logo and icons -->
 
-    <div class="locations pull-right">
-      <h6>Boston - Denver - United Kingdom - Sweden</h6>
-    </div>
-    <div class="header-extras">
-      <nav>
-        <li class="user-header no-user"><a href="/users/sign_in">User Login</a></li>
-        <li id="main-phone"><span class="fa fa-phone"></span><span>(617) 439-9900</span></li>
-        <li class="social-links">
-          <a href="/parents/gay-parenting">
-            <span class="link gay"></span>
-          </a>
-        </li>
-        <li class="social-links">
-          <span class="connect">Follow us:</span>
-          <a href="http://facebook.com/circlesurrogacy/" target="_blank">
-            <span class="link facebook"></span>
-          </a>
-          <a href="http://twitter.com/circlesurrogacy/" target="_blank">
-            <span class="link twitter"></span>
-          </a>
-          <a href="http://youtube.com/circlesurrogacy/" target="_blank">
-            <span class="link youtube"></span>
-          </a>
-          <a href="http://pinterest.com/circlesurrogacy/" target="_blank">
-            <span class="link pintrest"></span>
-          </a>
-        </li>
-      </nav>
-    </div>
-    <div class="clearfix"></div>
-  </header><!-- #branding -->
 
