@@ -7,13 +7,6 @@
  * @package circlesurrogacy
  */
 
-/**
- * The Header for our theme.
- *
- * Displays all of the <head> section and everything up till <div id="main">
- *
- * @package circlesurrogacy
- */
 do_action( 'genesis_doctype' );
 do_action( 'genesis_title' );
 do_action( 'genesis_meta' );
@@ -180,15 +173,12 @@ genesis_structural_wrap( 'site-inner' );
   <header id="branding" role="banner" class="row">
     <!-- logo and icons -->
 
-    <div class="span2 pull-left logo">
-      <a href="http://www.circlesurrogacy.com"><img alt="Logo" src="http://www.circlesurrogacy.com/assets/logo.png"></a>
-    </div>
+
     <div class="locations pull-right">
-      <h6>Boston - Denver - United Kingdom - Sweden</h6>
+      <h6>Boston - Denver - United Kingdom {+} Sweden</h6>
     </div>
     <div class="header-extras">
       <nav>
-        <li class="user-header no-user"><a href="/users/sign_in">User Login</a></li>
         <li id="main-phone"><span class="fa fa-phone"></span><span>(617) 439-9900</span></li>
         <li class="social-links">
           <a href="/parents/gay-parenting">
@@ -214,21 +204,6 @@ genesis_structural_wrap( 'site-inner' );
     </div>
     <div class="clearfix"></div>
 
-      <!-- main menu -->
-      <nav>
-        <ul class="nav nav-pills" id="main-menu">
-          <li><a href="http://www.circlesurrogacy.com">Home</a></li>
-          <li><a href="http://www.circlesurrogacy.com/parents">Parents</a></li>
-          <li><a href="http://www.circlesurrogacy.com/surrogates">Surrogates</a></li>
-          <li><a href="http://www.circlesurrogacy.com/donors">Donors</a></li>
-          <li><a href="http://www.circlesurrogacy.com/costs">Costs</a></li>
-          <li><a href="http://www.circlesurrogacy.com">LGBT</a></li>
-          <li><a href="http://www.circlesurrogacy.com/1-upcoming-events-consultations">Events</a></li>
-          <li><a href="http://www.circlesurrogacy.com/about">About</a></li>
-          <li><a href="http://www.circlesurrogacy.com/press">Press</a></li>
-          <li class="active"><a href="http://blog.circlesurrogacy.com">Blog</a></li>
-        </ul>
-      </nav>
 
   </header><!-- #branding -->
 
