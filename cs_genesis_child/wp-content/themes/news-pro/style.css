@@ -6168,8 +6168,11 @@ Site Header
 --------------------------------------------- */
 
 .title-area {
+	background: url(http://www.circlesurrogacy.com/assets/logo.png) no-repeat;
+
 	float: left;
 	padding-left: 40px;
+	height: 150px;
 	width: 300px;
 }
 

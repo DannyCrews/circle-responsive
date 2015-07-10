@@ -24,11 +24,11 @@ add_action( 'wp_enqueue_scripts', 'news_load_scripts' );
 function news_load_scripts() {
 
 	wp_enqueue_script( 'news-responsive-menu', get_bloginfo( 'stylesheet_directory' ) . '/js/responsive-menu.js', array( 'jquery' ), '1.0.0' );
-	
+
 	wp_enqueue_style( 'dashicons' );
 
 	wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Raleway:400,700|Pathway+Gothic+One', array(), CHILD_THEME_VERSION );
-	
+
 }
 
 //* Add new image sizes
@@ -83,6 +83,10 @@ function news_remove_comment_form_allowed_tags( $defaults ) {
 	return $defaults;
 
 }
+
+remove_action( 'genesis_site_description', 'genesis_seo_site_description' );
+
+remove_action( 'genesis_site_title', 'genesis_seo_site_title' );
 
 //* Register widget areas
 genesis_register_sidebar( array(
